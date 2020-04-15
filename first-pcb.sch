@@ -1687,4 +1687,29 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1400 5575 50  0001 
 	1    1300 5950
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EAF3A6B
+P 1300 4650
+F 0 "#PWR0107" H 1300 4400 50  0001 C CNN
+F 1 "GND" H 1305 4477 50  0000 C CNN
+F 2 "" H 1300 4650 50  0001 C CNN
+F 3 "" H 1300 4650 50  0001 C CNN
+	1    1300 4650
+	-1   0    0    1   
+$EndComp
+Connection ~ 1300 4650
+$Comp
+L power:VCC #PWR0108
+U 1 1 5EAF44CC
+P 1300 5250
+F 0 "#PWR0108" H 1300 5100 50  0001 C CNN
+F 1 "VCC" H 1315 5423 50  0000 C CNN
+F 2 "" H 1300 5250 50  0001 C CNN
+F 3 "" H 1300 5250 50  0001 C CNN
+	1    1300 5250
+	-1   0    0    1   
+$EndComp
+Connection ~ 1300 5250
+NoConn ~ 1000 5950
 $EndSCHEMATC
