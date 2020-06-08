@@ -61,8 +61,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 1350 10250 1350
 Wire Wire Line
-	8050 3300 8200 3300
-Wire Wire Line
 	9150 3300 9300 3300
 Wire Wire Line
 	9700 3300 9850 3300
@@ -350,10 +348,6 @@ Wire Wire Line
 Connection ~ 9500 2450
 NoConn ~ 1450 2600
 Wire Wire Line
-	8400 3100 8400 2450
-Wire Wire Line
-	8050 6200 8200 6200
-Wire Wire Line
 	8400 5350 8400 4700
 Wire Wire Line
 	8400 4700 8400 4050
@@ -413,23 +407,23 @@ $EndComp
 $Comp
 L Device:D_Small D44
 U 1 1 5EB566F4
-P 8050 6300
-F 0 "D44" V 8096 6230 50  0000 R CNN
-F 1 "D_Small" V 8005 6230 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8050 6300 50  0001 C CNN
-F 3 "~" V 8050 6300 50  0001 C CNN
-	1    8050 6300
+P 8600 6300
+F 0 "D44" V 8646 6230 50  0000 R CNN
+F 1 "D_Small" V 8555 6230 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8600 6300 50  0001 C CNN
+F 3 "~" V 8600 6300 50  0001 C CNN
+	1    8600 6300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX44
 U 1 1 5EB566EE
-P 8250 6050
-F 0 "MX44" H 8283 6273 60  0000 C CNN
-F 1 "MX-NoLED" H 8283 6199 20  0000 C CNN
-F 2 "parts:mx_1u" H 7625 6025 60  0001 C CNN
-F 3 "" H 7625 6025 60  0001 C CNN
-	1    8250 6050
+P 8800 6050
+F 0 "MX44" H 8833 6273 60  0000 C CNN
+F 1 "MX-NoLED" H 8833 6199 20  0000 C CNN
+F 2 "parts:mx_1u" H 8175 6025 60  0001 C CNN
+F 3 "" H 8175 6025 60  0001 C CNN
+	1    8800 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -930,23 +924,23 @@ $EndComp
 $Comp
 L Device:D_Small D37
 U 1 1 5E98CCFF
-P 8050 3400
-F 0 "D37" V 8096 3330 50  0000 R CNN
-F 1 "D_Small" V 8005 3330 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8050 3400 50  0001 C CNN
-F 3 "~" V 8050 3400 50  0001 C CNN
-	1    8050 3400
+P 8600 3400
+F 0 "D37" V 8646 3330 50  0000 R CNN
+F 1 "D_Small" V 8555 3330 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8600 3400 50  0001 C CNN
+F 3 "~" V 8600 3400 50  0001 C CNN
+	1    8600 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX37
 U 1 1 5E98CCF9
-P 8250 3150
-F 0 "MX37" H 8283 3373 60  0000 C CNN
-F 1 "MX-NoLED" H 8283 3299 20  0000 C CNN
-F 2 "parts:mx_1u" H 7625 3125 60  0001 C CNN
-F 3 "" H 7625 3125 60  0001 C CNN
-	1    8250 3150
+P 8800 3150
+F 0 "MX37" H 8833 3373 60  0000 C CNN
+F 1 "MX-NoLED" H 8833 3299 20  0000 C CNN
+F 2 "parts:mx_1u" H 8175 3125 60  0001 C CNN
+F 3 "" H 8175 3125 60  0001 C CNN
+	1    8800 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1396,19 +1390,11 @@ Wire Wire Line
 Connection ~ 9500 4050
 Connection ~ 9500 3100
 Wire Wire Line
-	8950 4050 8950 2450
+	8950 4050 8950 3100
 Connection ~ 8950 4050
 Connection ~ 8950 2450
-Connection ~ 8050 3500
-Wire Wire Line
-	8050 3500 9150 3500
 Connection ~ 8400 2450
-Wire Wire Line
-	7150 3500 8050 3500
-Wire Wire Line
-	8400 4050 8400 3100
 Connection ~ 8400 4050
-Connection ~ 8400 3100
 Wire Wire Line
 	7850 4050 7850 2450
 Connection ~ 7850 2450
@@ -1457,21 +1443,15 @@ Wire Wire Line
 	9700 5750 9150 5750
 Wire Wire Line
 	10250 6400 9700 6400
-Connection ~ 8050 6400
-Wire Wire Line
-	8050 6400 7200 6400
 Connection ~ 9150 6400
 Wire Wire Line
-	9150 6400 8050 6400
+	9150 6400 8600 6400
 Connection ~ 9700 6400
 Wire Wire Line
 	9700 6400 9150 6400
 Wire Wire Line
 	10600 6000 10600 5350
 Connection ~ 10600 5350
-Wire Wire Line
-	8400 6000 8400 5350
-Connection ~ 8400 5350
 Wire Wire Line
 	9500 6000 9500 5350
 Connection ~ 9500 5350
@@ -1712,4 +1692,24 @@ F 3 "" H 1300 4650 50  0001 C CNN
 $EndComp
 Connection ~ 1300 5250
 NoConn ~ 1000 5950
+Connection ~ 8950 3100
+Wire Wire Line
+	8950 3100 8950 2450
+Connection ~ 8600 3500
+Wire Wire Line
+	8600 3500 9150 3500
+Wire Wire Line
+	8400 2450 8400 4050
+Wire Wire Line
+	7150 3500 8600 3500
+Wire Wire Line
+	8600 3300 8750 3300
+Connection ~ 8600 6400
+Wire Wire Line
+	7200 6400 8600 6400
+Wire Wire Line
+	8600 6200 8750 6200
+Wire Wire Line
+	8950 6000 8950 5350
+Connection ~ 8950 5350
 $EndSCHEMATC
