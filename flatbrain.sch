@@ -278,15 +278,15 @@ F 3 "" H 2850 2600 50  0001 C CNN
 	1    2850 2600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1450 3100 0    50   Input ~ 0
+Text GLabel 2850 3100 2    50   Input ~ 0
 COL0
-Text GLabel 1450 3200 0    50   Input ~ 0
+Text GLabel 2850 3200 2    50   Input ~ 0
 COL1
-Text GLabel 1450 3300 0    50   Input ~ 0
+Text GLabel 2850 3300 2    50   Input ~ 0
 COL2
-Text GLabel 1450 3400 0    50   Input ~ 0
+Text GLabel 2850 3400 2    50   Input ~ 0
 COL3
-Text GLabel 2850 3500 2    50   Input ~ 0
+Text GLabel 1450 3200 0    50   Input ~ 0
 COL7
 Text GLabel 2850 2900 2    50   Input ~ 0
 ROW2
@@ -1390,7 +1390,7 @@ Wire Wire Line
 	11000 1950 11000 2600
 Text GLabel 2850 3000 2    50   Input ~ 0
 ROW3
-Text GLabel 2850 3600 2    50   Input ~ 0
+Text GLabel 1450 3100 0    50   Input ~ 0
 COL6
 $Comp
 L LED:WS2812B LED1
@@ -1828,17 +1828,17 @@ Wire Wire Line
 	1100 2500 1100 2400
 Text GLabel 900  2600 0    50   Input ~ 0
 ROW0
-Text GLabel 1450 3500 0    50   Input ~ 0
+Text GLabel 2850 3500 2    50   Input ~ 0
 COL4
-Text GLabel 1450 3600 0    50   Input ~ 0
+Text GLabel 2850 3600 2    50   Input ~ 0
 COL5
-Text GLabel 2850 3400 2    50   Input ~ 0
+Text GLabel 1450 3300 0    50   Input ~ 0
 COL8
-Text GLabel 2850 3300 2    50   Input ~ 0
+Text GLabel 1450 3400 0    50   Input ~ 0
 COL9
-Text GLabel 2850 3200 2    50   Input ~ 0
+Text GLabel 1450 3500 0    50   Input ~ 0
 COL10
-Text GLabel 2850 3100 2    50   Input ~ 0
+Text GLabel 1450 3600 0    50   Input ~ 0
 COL11
 Text GLabel 1450 2600 0    50   Input ~ 0
 ROW1
