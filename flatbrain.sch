@@ -286,7 +286,7 @@ Text GLabel 2850 3300 2    50   Input ~ 0
 COL2
 Text GLabel 2850 3400 2    50   Input ~ 0
 COL3
-Text GLabel 1450 3200 0    50   Input ~ 0
+Text GLabel 1450 3500 0    50   Input ~ 0
 COL7
 Text GLabel 2850 2900 2    50   Input ~ 0
 ROW2
@@ -1390,7 +1390,7 @@ Wire Wire Line
 	11000 1950 11000 2600
 Text GLabel 2850 3000 2    50   Input ~ 0
 ROW3
-Text GLabel 1450 3100 0    50   Input ~ 0
+Text GLabel 1450 3600 0    50   Input ~ 0
 COL6
 $Comp
 L LED:WS2812B LED1
@@ -1832,25 +1832,25 @@ Text GLabel 2850 3500 2    50   Input ~ 0
 COL4
 Text GLabel 2850 3600 2    50   Input ~ 0
 COL5
-Text GLabel 1450 3300 0    50   Input ~ 0
-COL8
 Text GLabel 1450 3400 0    50   Input ~ 0
+COL8
+Text GLabel 1450 3300 0    50   Input ~ 0
 COL9
-Text GLabel 1450 3500 0    50   Input ~ 0
+Text GLabel 1450 3200 0    50   Input ~ 0
 COL10
-Text GLabel 1450 3600 0    50   Input ~ 0
+Text GLabel 1450 3100 0    50   Input ~ 0
 COL11
 Text GLabel 1450 2600 0    50   Input ~ 0
 ROW1
-Text GLabel 1850 3800 3    50   Input ~ 0
-ENC1A
-Text GLabel 2000 3800 3    50   Input ~ 0
-ENC1B
 Text GLabel 2300 3800 3    50   Input ~ 0
-ENC2A
+ENC1A
 Text GLabel 2450 3800 3    50   Input ~ 0
-ENC2B
+ENC1B
 Text GLabel 3050 2500 2    50   Input ~ 0
 ROW0
 NoConn ~ 2150 3800
+Text GLabel 2000 3800 3    50   Input ~ 0
+ENC2B
+Text GLabel 1850 3800 3    50   Input ~ 0
+ENC2A
 $EndSCHEMATC
