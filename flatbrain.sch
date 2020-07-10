@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #PWR0109
-U 1 1 5E8A23B9
-P 1600 1650
-F 0 "#PWR0109" H 1600 1400 50  0001 C CNN
-F 1 "GND" H 1605 1477 50  0000 C CNN
-F 2 "" H 1600 1650 50  0001 C CNN
-F 3 "" H 1600 1650 50  0001 C CNN
-	1    1600 1650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4600 1500 4750 1500
 Wire Wire Line
@@ -230,10 +219,6 @@ Wire Wire Line
 Connection ~ 9350 1950
 Wire Wire Line
 	9350 1950 9350 1300
-Text GLabel 2000 1650 2    50   Input ~ 0
-RST
-Text GLabel 2850 2700 2    50   Input ~ 0
-RST
 $Comp
 L power:GND #PWR0101
 U 1 1 5F0BD718
@@ -1269,17 +1254,6 @@ F 3 "" H 4175 1325 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5E8A1EA9
-P 1800 1650
-F 0 "SW1" H 1800 1935 50  0000 C CNN
-F 1 "SW_Push" H 1800 1844 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 1800 1850 50  0001 C CNN
-F 3 "~" H 1800 1850 50  0001 C CNN
-	1    1800 1650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D27
 U 1 1 5E8E8618
 P 5700 2900
@@ -1853,4 +1827,5 @@ Text GLabel 2000 3800 3    50   Input ~ 0
 ENC2B
 Text GLabel 1850 3800 3    50   Input ~ 0
 ENC2A
+NoConn ~ 2850 2700
 $EndSCHEMATC
