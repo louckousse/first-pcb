@@ -23,27 +23,6 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_Jumper_NO_Small
-#
-DEF Device_Jumper_NO_Small JP 0 30 N N 1 F N
-F0 "JP" 0 80 50 H V C CNN
-F1 "Device_Jumper_NO_Small" 10 -60 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- SolderJumper*Open*
- Jumper*
- TestPoint*2Pads*
- TestPoint*Bridge*
-$ENDFPLIST
-DRAW
-C -40 0 20 0 1 0 N
-C 40 0 20 0 1 0 N
-X 1 1 -100 0 40 R 50 50 0 1 P
-X 2 2 100 0 40 L 50 50 0 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Rotary_Encoder_Switch
 #
 DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
@@ -109,24 +88,6 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MX_Alps_Hybrid_MX-NoLED
-#
-DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
-F0 "MX" -25 150 60 H V C CNN
-F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
-F2 "" -625 -25 60 H I C CNN
-F3 "" -625 -25 60 H I C CNN
-DRAW
-T 0 125 0 30 0 0 0 COL Normal 0 C C
-T 900 0 -75 30 0 0 0 ROW Normal 0 R C
-S -100 100 50 -50 0 0 0 N
-P 2 0 0 5 -50 -50 -50 50 N
-P 3 0 0 5 50 50 0 50 -50 75 N
-X COL 1 150 50 100 L 0 0 1 1 P
-X ROW 2 -50 -150 100 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # flatbrain_Connector_Generic_Conn_01x04
 #
 DEF flatbrain_Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
@@ -188,6 +149,24 @@ X SCL 6 -700 0 200 R 50 50 1 1 B
 X D4 7 -700 -100 200 R 50 50 1 1 B
 X C6 8 -700 -200 200 R 50 50 1 1 B
 X D7 9 -700 -300 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# flatbrain_MX_Alps_Hybrid_MX-NoLED
+#
+DEF flatbrain_MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "flatbrain_MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
