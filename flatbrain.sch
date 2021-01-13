@@ -1359,23 +1359,12 @@ $EndComp
 Connection ~ 1300 5250
 NoConn ~ 1000 5950
 $Comp
-L Device:Rotary_Encoder_Switch SW2
-U 1 1 5EE87CC0
-P 8150 4150
-F 0 "SW2" H 8150 3900 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 8150 3800 50  0000 C CNN
-F 2 "parts:rotary_x_mxchoc" H 8000 4310 50  0001 C CNN
-F 3 "~" H 8150 4410 50  0001 C CNN
-	1    8150 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:Rotary_Encoder_Switch SW1
 U 1 1 5EE84C60
 P 7600 4150
 F 0 "SW1" H 7600 4517 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7600 4426 50  0000 C CNN
-F 2 "parts:rotary_x_mxchoc" H 7450 4310 50  0001 C CNN
+F 2 "parts:rotary_x_mx" H 7450 4310 50  0001 C CNN
 F 3 "~" H 7600 4410 50  0001 C CNN
 	1    7600 4150
 	0    -1   -1   0   
@@ -1442,20 +1431,6 @@ Connection ~ 6800 3650
 Wire Wire Line
 	6800 3650 7500 3650
 $Comp
-L Device:D_Small D36
-U 1 1 5F0CAFA9
-P 8050 3750
-F 0 "D36" V 8096 3680 50  0000 R CNN
-F 1 "D_Small" V 8005 3680 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 8050 3750 50  0001 C CNN
-F 3 "~" V 8050 3750 50  0001 C CNN
-	1    8050 3750
-	0    1    1    0   
-$EndComp
-Connection ~ 8050 3650
-Wire Wire Line
-	8050 3650 8450 3650
-$Comp
 L Device:D_Small D35
 U 1 1 5F0CB401
 P 7500 3750
@@ -1467,22 +1442,13 @@ F 3 "~" V 7500 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 7500 3650
-Wire Wire Line
-	7500 3650 8050 3650
 Connection ~ 7700 2600
-Wire Wire Line
-	8250 3850 8250 2600
-Connection ~ 8250 2600
 Wire Wire Line
 	7700 2600 7700 3850
 Text GLabel 7500 4450 3    50   Input ~ 0
 ENC1A
 Text GLabel 7700 4450 3    50   Input ~ 0
 ENC1B
-Text GLabel 8050 4450 3    50   Input ~ 0
-ENC2A
-Text GLabel 8250 4450 3    50   Input ~ 0
-ENC2B
 $Comp
 L power:GND #PWR07
 U 1 1 5F0FF764
@@ -1492,17 +1458,6 @@ F 1 "GND" H 7605 4277 50  0000 C CNN
 F 2 "" H 7600 4450 50  0001 C CNN
 F 3 "" H 7600 4450 50  0001 C CNN
 	1    7600 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5F0FFEF3
-P 8150 4450
-F 0 "#PWR08" H 8150 4200 50  0001 C CNN
-F 1 "GND" H 8155 4277 50  0000 C CNN
-F 2 "" H 8150 4450 50  0001 C CNN
-F 3 "" H 8150 4450 50  0001 C CNN
-	1    8150 4450
 	1    0    0    -1  
 $EndComp
 Text GLabel 1450 3100 0    50   Input ~ 0
@@ -1541,4 +1496,44 @@ Connection ~ 5150 3000
 NoConn ~ 2850 2500
 Wire Wire Line
 	4900 3650 5700 3650
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5FFEA824
+P 6600 4850
+F 0 "J2" H 6680 4892 50  0000 L CNN
+F 1 "Conn_01x05" H 6680 4801 50  0000 L CNN
+F 2 "Kicad-Footprints:pimoroni_trackball" H 6600 4850 50  0001 C CNN
+F 3 "~" H 6600 4850 50  0001 C CNN
+	1    6600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FFF95B2
+P 6400 4650
+F 0 "#PWR0101" H 6400 4500 50  0001 C CNN
+F 1 "VCC" V 6415 4778 50  0000 L CNN
+F 2 "" H 6400 4650 50  0001 C CNN
+F 3 "" H 6400 4650 50  0001 C CNN
+	1    6400 4650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6400 4750 0    50   Input ~ 0
+SDA
+Text GLabel 6400 4850 0    50   Input ~ 0
+SCL
+NoConn ~ 6400 4950
+$Comp
+L power:GND #PWR0102
+U 1 1 60019A0F
+P 6400 5050
+F 0 "#PWR0102" H 6400 4800 50  0001 C CNN
+F 1 "GND" V 6405 4922 50  0000 R CNN
+F 2 "" H 6400 5050 50  0001 C CNN
+F 3 "" H 6400 5050 50  0001 C CNN
+	1    6400 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3650 8450 3650
 $EndSCHEMATC
