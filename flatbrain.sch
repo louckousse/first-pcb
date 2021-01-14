@@ -231,17 +231,17 @@ F 3 "" H 2850 2600 50  0001 C CNN
 	1    2850 2600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2850 3100 2    50   Input ~ 0
-COL0
-Text GLabel 2850 3200 2    50   Input ~ 0
-COL1
-Text GLabel 2850 3300 2    50   Input ~ 0
-COL2
-Text GLabel 2850 3400 2    50   Input ~ 0
-COL3
-Text GLabel 1450 3500 0    50   Input ~ 0
-COL7
 Text GLabel 2850 2900 2    50   Input ~ 0
+COL0
+Text GLabel 2850 3000 2    50   Input ~ 0
+COL1
+Text GLabel 2850 3100 2    50   Input ~ 0
+COL2
+Text GLabel 2850 3200 2    50   Input ~ 0
+COL3
+Text GLabel 1450 3200 0    50   Input ~ 0
+COL7
+Text GLabel 1450 3500 0    50   Input ~ 0
 ROW2
 $Comp
 L power:GND #PWR01
@@ -312,7 +312,7 @@ U 1 1 5E8E8609
 P 5150 2900
 F 0 "D21" V 5196 2830 50  0000 R CNN
 F 1 "D_Small" V 5105 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5150 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5150 2900 50  0001 C CNN
 F 3 "~" V 5150 2900 50  0001 C CNN
 	1    5150 2900
 	0    -1   -1   0   
@@ -334,7 +334,7 @@ U 1 1 5EB566E7
 P 9550 3550
 F 0 "D39" V 9596 3480 50  0000 R CNN
 F 1 "D_Small" V 9505 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9550 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9550 3550 50  0001 C CNN
 F 3 "~" V 9550 3550 50  0001 C CNN
 	1    9550 3550
 	0    -1   -1   0   
@@ -356,7 +356,7 @@ U 1 1 5EB566DA
 P 9000 3550
 F 0 "D38" V 9046 3480 50  0000 R CNN
 F 1 "D_Small" V 8955 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9000 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9000 3550 50  0001 C CNN
 F 3 "~" V 9000 3550 50  0001 C CNN
 	1    9000 3550
 	0    -1   -1   0   
@@ -378,7 +378,7 @@ U 1 1 5EB566CD
 P 8450 3550
 F 0 "D37" V 8496 3480 50  0000 R CNN
 F 1 "D_Small" V 8405 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 8450 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8450 3550 50  0001 C CNN
 F 3 "~" V 8450 3550 50  0001 C CNN
 	1    8450 3550
 	0    -1   -1   0   
@@ -411,7 +411,7 @@ U 1 1 5EB56692
 P 10100 2900
 F 0 "D30" V 10146 2830 50  0000 R CNN
 F 1 "D_Small" V 10055 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 10100 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 10100 2900 50  0001 C CNN
 F 3 "~" V 10100 2900 50  0001 C CNN
 	1    10100 2900
 	0    -1   -1   0   
@@ -433,7 +433,7 @@ U 1 1 5EB56685
 P 9550 2900
 F 0 "D29" V 9596 2830 50  0000 R CNN
 F 1 "D_Small" V 9505 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9550 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9550 2900 50  0001 C CNN
 F 3 "~" V 9550 2900 50  0001 C CNN
 	1    9550 2900
 	0    -1   -1   0   
@@ -444,7 +444,7 @@ U 1 1 5EB5667E
 P 9000 2900
 F 0 "D28" V 9046 2830 50  0000 R CNN
 F 1 "D_Small" V 8955 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9000 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9000 2900 50  0001 C CNN
 F 3 "~" V 9000 2900 50  0001 C CNN
 	1    9000 2900
 	0    -1   -1   0   
@@ -466,7 +466,7 @@ U 1 1 5EB56672
 P 8450 2900
 F 0 "D27" V 8496 2830 50  0000 R CNN
 F 1 "D_Small" V 8405 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 8450 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8450 2900 50  0001 C CNN
 F 3 "~" V 8450 2900 50  0001 C CNN
 	1    8450 2900
 	0    -1   -1   0   
@@ -488,7 +488,7 @@ U 1 1 5EB56665
 P 7900 2900
 F 0 "D26" V 7946 2830 50  0000 R CNN
 F 1 "D_Small" V 7855 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7900 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7900 2900 50  0001 C CNN
 F 3 "~" V 7900 2900 50  0001 C CNN
 	1    7900 2900
 	0    -1   -1   0   
@@ -510,7 +510,7 @@ U 1 1 5EB56658
 P 10100 2250
 F 0 "D20" V 10146 2180 50  0000 R CNN
 F 1 "D_Small" V 10055 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 10100 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 10100 2250 50  0001 C CNN
 F 3 "~" V 10100 2250 50  0001 C CNN
 	1    10100 2250
 	0    -1   -1   0   
@@ -532,7 +532,7 @@ U 1 1 5EB5664B
 P 9550 2250
 F 0 "D19" V 9596 2180 50  0000 R CNN
 F 1 "D_Small" V 9505 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9550 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9550 2250 50  0001 C CNN
 F 3 "~" V 9550 2250 50  0001 C CNN
 	1    9550 2250
 	0    -1   -1   0   
@@ -554,7 +554,7 @@ U 1 1 5EB5663E
 P 10100 1600
 F 0 "D10" V 10146 1530 50  0000 R CNN
 F 1 "D_Small" V 10055 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 10100 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 10100 1600 50  0001 C CNN
 F 3 "~" V 10100 1600 50  0001 C CNN
 	1    10100 1600
 	0    -1   -1   0   
@@ -576,7 +576,7 @@ U 1 1 5EB56631
 P 9550 1600
 F 0 "D9" V 9596 1530 50  0000 R CNN
 F 1 "D_Small" V 9505 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9550 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9550 1600 50  0001 C CNN
 F 3 "~" V 9550 1600 50  0001 C CNN
 	1    9550 1600
 	0    -1   -1   0   
@@ -598,7 +598,7 @@ U 1 1 5EB56624
 P 9000 2250
 F 0 "D18" V 9046 2180 50  0000 R CNN
 F 1 "D_Small" V 8955 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9000 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9000 2250 50  0001 C CNN
 F 3 "~" V 9000 2250 50  0001 C CNN
 	1    9000 2250
 	0    -1   -1   0   
@@ -620,7 +620,7 @@ U 1 1 5EB56617
 P 8450 2250
 F 0 "D17" V 8496 2180 50  0000 R CNN
 F 1 "D_Small" V 8405 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 8450 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8450 2250 50  0001 C CNN
 F 3 "~" V 8450 2250 50  0001 C CNN
 	1    8450 2250
 	0    -1   -1   0   
@@ -642,7 +642,7 @@ U 1 1 5EB5660A
 P 9000 1600
 F 0 "D8" V 9046 1530 50  0000 R CNN
 F 1 "D_Small" V 8955 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 9000 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 9000 1600 50  0001 C CNN
 F 3 "~" V 9000 1600 50  0001 C CNN
 	1    9000 1600
 	0    -1   -1   0   
@@ -664,7 +664,7 @@ U 1 1 5EB565FD
 P 8450 1600
 F 0 "D7" V 8496 1530 50  0000 R CNN
 F 1 "D_Small" V 8405 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 8450 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8450 1600 50  0001 C CNN
 F 3 "~" V 8450 1600 50  0001 C CNN
 	1    8450 1600
 	0    -1   -1   0   
@@ -686,7 +686,7 @@ U 1 1 5EB565F0
 P 7900 2250
 F 0 "D16" V 7946 2180 50  0000 R CNN
 F 1 "D_Small" V 7855 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7900 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7900 2250 50  0001 C CNN
 F 3 "~" V 7900 2250 50  0001 C CNN
 	1    7900 2250
 	0    -1   -1   0   
@@ -708,7 +708,7 @@ U 1 1 5EB565E3
 P 7900 1600
 F 0 "D6" V 7946 1530 50  0000 R CNN
 F 1 "D_Small" V 7855 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7900 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7900 1600 50  0001 C CNN
 F 3 "~" V 7900 1600 50  0001 C CNN
 	1    7900 1600
 	0    -1   -1   0   
@@ -730,7 +730,7 @@ U 1 1 5E99D637
 P 6800 3550
 F 0 "D34" V 6846 3480 50  0000 R CNN
 F 1 "D_Small" V 6755 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6800 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6800 3550 50  0001 C CNN
 F 3 "~" V 6800 3550 50  0001 C CNN
 	1    6800 3550
 	0    -1   -1   0   
@@ -752,7 +752,7 @@ U 1 1 5E99AFCF
 P 6250 3550
 F 0 "D33" V 6296 3480 50  0000 R CNN
 F 1 "D_Small" V 6205 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6250 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6250 3550 50  0001 C CNN
 F 3 "~" V 6250 3550 50  0001 C CNN
 	1    6250 3550
 	0    -1   -1   0   
@@ -774,7 +774,7 @@ U 1 1 5E998D42
 P 5700 3550
 F 0 "D32" V 5746 3480 50  0000 R CNN
 F 1 "D_Small" V 5655 3480 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5700 3550 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5700 3550 50  0001 C CNN
 F 3 "~" V 5700 3550 50  0001 C CNN
 	1    5700 3550
 	0    -1   -1   0   
@@ -796,7 +796,7 @@ U 1 1 5E97C023
 P 7350 2250
 F 0 "D15" V 7396 2180 50  0000 R CNN
 F 1 "D_Small" V 7305 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7350 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7350 2250 50  0001 C CNN
 F 3 "~" V 7350 2250 50  0001 C CNN
 	1    7350 2250
 	0    -1   -1   0   
@@ -840,7 +840,7 @@ U 1 1 5E8E8641
 P 7350 2900
 F 0 "D25" V 7396 2830 50  0000 R CNN
 F 1 "D_Small" V 7305 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7350 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7350 2900 50  0001 C CNN
 F 3 "~" V 7350 2900 50  0001 C CNN
 	1    7350 2900
 	0    -1   -1   0   
@@ -873,7 +873,7 @@ U 1 1 5E8E8625
 P 6250 2900
 F 0 "D23" V 6296 2830 50  0000 R CNN
 F 1 "D_Small" V 6205 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6250 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6250 2900 50  0001 C CNN
 F 3 "~" V 6250 2900 50  0001 C CNN
 	1    6250 2900
 	0    -1   -1   0   
@@ -906,7 +906,7 @@ U 1 1 5E8D282F
 P 6800 2250
 F 0 "D14" V 6846 2180 50  0000 R CNN
 F 1 "D_Small" V 6755 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6800 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6800 2250 50  0001 C CNN
 F 3 "~" V 6800 2250 50  0001 C CNN
 	1    6800 2250
 	0    -1   -1   0   
@@ -928,7 +928,7 @@ U 1 1 5E8D2822
 P 6250 2250
 F 0 "D13" V 6296 2180 50  0000 R CNN
 F 1 "D_Small" V 6205 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6250 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6250 2250 50  0001 C CNN
 F 3 "~" V 6250 2250 50  0001 C CNN
 	1    6250 2250
 	0    -1   -1   0   
@@ -950,7 +950,7 @@ U 1 1 5E8D2815
 P 6800 1600
 F 0 "D4" V 6846 1530 50  0000 R CNN
 F 1 "D_Small" V 6755 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6800 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6800 1600 50  0001 C CNN
 F 3 "~" V 6800 1600 50  0001 C CNN
 	1    6800 1600
 	0    -1   -1   0   
@@ -972,7 +972,7 @@ U 1 1 5E8D2808
 P 6250 1600
 F 0 "D3" V 6296 1530 50  0000 R CNN
 F 1 "D_Small" V 6205 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6250 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6250 1600 50  0001 C CNN
 F 3 "~" V 6250 1600 50  0001 C CNN
 	1    6250 1600
 	0    -1   -1   0   
@@ -994,7 +994,7 @@ U 1 1 5E8CDFF5
 P 5700 2250
 F 0 "D12" V 5746 2180 50  0000 R CNN
 F 1 "D_Small" V 5655 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5700 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5700 2250 50  0001 C CNN
 F 3 "~" V 5700 2250 50  0001 C CNN
 	1    5700 2250
 	0    -1   -1   0   
@@ -1016,7 +1016,7 @@ U 1 1 5E8CDFE8
 P 5150 2250
 F 0 "D11" V 5196 2180 50  0000 R CNN
 F 1 "D_Small" V 5105 2180 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5150 2250 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5150 2250 50  0001 C CNN
 F 3 "~" V 5150 2250 50  0001 C CNN
 	1    5150 2250
 	0    -1   -1   0   
@@ -1038,7 +1038,7 @@ U 1 1 5E8CDFDB
 P 5700 1600
 F 0 "D2" V 5746 1530 50  0000 R CNN
 F 1 "D_Small" V 5655 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5700 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5700 1600 50  0001 C CNN
 F 3 "~" V 5700 1600 50  0001 C CNN
 	1    5700 1600
 	0    -1   -1   0   
@@ -1060,7 +1060,7 @@ U 1 1 5E8CDFCE
 P 5150 1600
 F 0 "D1" V 5196 1530 50  0000 R CNN
 F 1 "D_Small" V 5105 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5150 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5150 1600 50  0001 C CNN
 F 3 "~" V 5150 1600 50  0001 C CNN
 	1    5150 1600
 	0    -1   -1   0   
@@ -1082,7 +1082,7 @@ U 1 1 5E8E8618
 P 5700 2900
 F 0 "D22" V 5746 2830 50  0000 R CNN
 F 1 "D_Small" V 5655 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 5700 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 5700 2900 50  0001 C CNN
 F 3 "~" V 5700 2900 50  0001 C CNN
 	1    5700 2900
 	0    -1   -1   0   
@@ -1093,7 +1093,7 @@ U 1 1 5E8E8634
 P 6800 2900
 F 0 "D24" V 6846 2830 50  0000 R CNN
 F 1 "D_Small" V 6755 2830 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 6800 2900 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 6800 2900 50  0001 C CNN
 F 3 "~" V 6800 2900 50  0001 C CNN
 	1    6800 2900
 	0    -1   -1   0   
@@ -1141,9 +1141,9 @@ F 3 "" H 2250 1950 60  0000 C CNN
 	1    2150 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2850 3000 2    50   Input ~ 0
-ROW3
 Text GLabel 1450 3600 0    50   Input ~ 0
+ROW3
+Text GLabel 1450 3300 0    50   Input ~ 0
 COL6
 $Comp
 L LED:WS2812B LED1
@@ -1394,7 +1394,7 @@ U 1 1 5E97B157
 P 7350 1600
 F 0 "D5" V 7396 1530 50  0000 R CNN
 F 1 "D_Small" V 7305 1530 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7350 1600 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7350 1600 50  0001 C CNN
 F 3 "~" V 7350 1600 50  0001 C CNN
 	1    7350 1600
 	0    -1   -1   0   
@@ -1436,7 +1436,7 @@ U 1 1 5F0CB401
 P 7500 3750
 F 0 "D35" V 7546 3680 50  0000 R CNN
 F 1 "D_Small" V 7455 3680 50  0000 R CNN
-F 2 "Keebio-Parts:Diode-dual" V 7500 3750 50  0001 C CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 7500 3750 50  0001 C CNN
 F 3 "~" V 7500 3750 50  0001 C CNN
 	1    7500 3750
 	0    1    1    0   
@@ -1446,9 +1446,9 @@ Connection ~ 7700 2600
 Wire Wire Line
 	7700 2600 7700 3850
 Text GLabel 7500 4450 3    50   Input ~ 0
-ENC1A
+ENCA
 Text GLabel 7700 4450 3    50   Input ~ 0
-ENC1B
+ENCB
 $Comp
 L power:GND #PWR07
 U 1 1 5F0FF764
@@ -1460,27 +1460,23 @@ F 3 "" H 7600 4450 50  0001 C CNN
 	1    7600 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 3100 0    50   Input ~ 0
+Text GLabel 2850 3400 2    50   Input ~ 0
 ROW0
-Text GLabel 2850 3500 2    50   Input ~ 0
+Text GLabel 2850 3300 2    50   Input ~ 0
 COL4
-Text GLabel 2850 3600 2    50   Input ~ 0
-COL5
 Text GLabel 1450 3400 0    50   Input ~ 0
+COL5
+Text GLabel 1450 3100 0    50   Input ~ 0
 COL8
-Text GLabel 1450 3300 0    50   Input ~ 0
-COL9
 Text GLabel 1450 2600 0    50   Input ~ 0
+COL9
+Text GLabel 2850 3500 2    50   Input ~ 0
 ROW1
 Text GLabel 2300 3800 3    50   Input ~ 0
-ENC1A
+ENCA
 Text GLabel 2450 3800 3    50   Input ~ 0
-ENC1B
+ENCB
 NoConn ~ 2150 3800
-Text GLabel 2000 3800 3    50   Input ~ 0
-ENC2B
-Text GLabel 1850 3800 3    50   Input ~ 0
-ENC2A
 NoConn ~ 2850 2700
 Wire Wire Line
 	4900 1700 5150 1700
@@ -1499,41 +1495,43 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x05 J2
 U 1 1 5FFEA824
-P 6600 4850
-F 0 "J2" H 6680 4892 50  0000 L CNN
-F 1 "Conn_01x05" H 6680 4801 50  0000 L CNN
-F 2 "Kicad-Footprints:pimoroni_trackball" H 6600 4850 50  0001 C CNN
-F 3 "~" H 6600 4850 50  0001 C CNN
-	1    6600 4850
-	1    0    0    -1  
+P 2050 1600
+F 0 "J2" H 2130 1642 50  0000 L CNN
+F 1 "Conn_01x05" H 2130 1551 50  0000 L CNN
+F 2 "Kicad-Footprints:pimoroni_trackball" H 2050 1600 50  0001 C CNN
+F 3 "~" H 2050 1600 50  0001 C CNN
+	1    2050 1600
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VCC #PWR0101
 U 1 1 5FFF95B2
-P 6400 4650
-F 0 "#PWR0101" H 6400 4500 50  0001 C CNN
-F 1 "VCC" V 6415 4778 50  0000 L CNN
-F 2 "" H 6400 4650 50  0001 C CNN
-F 3 "" H 6400 4650 50  0001 C CNN
-	1    6400 4650
-	0    -1   -1   0   
+P 2250 1800
+F 0 "#PWR0101" H 2250 1650 50  0001 C CNN
+F 1 "VCC" V 2265 1928 50  0000 L CNN
+F 2 "" H 2250 1800 50  0001 C CNN
+F 3 "" H 2250 1800 50  0001 C CNN
+	1    2250 1800
+	0    1    1    0   
 $EndComp
-Text GLabel 6400 4750 0    50   Input ~ 0
+Text GLabel 2250 1700 2    50   Input ~ 0
 SDA
-Text GLabel 6400 4850 0    50   Input ~ 0
+Text GLabel 2250 1600 2    50   Input ~ 0
 SCL
-NoConn ~ 6400 4950
+NoConn ~ 2250 1500
 $Comp
 L power:GND #PWR0102
 U 1 1 60019A0F
-P 6400 5050
-F 0 "#PWR0102" H 6400 4800 50  0001 C CNN
-F 1 "GND" V 6405 4922 50  0000 R CNN
-F 2 "" H 6400 5050 50  0001 C CNN
-F 3 "" H 6400 5050 50  0001 C CNN
-	1    6400 5050
-	0    1    1    0   
+P 2250 1400
+F 0 "#PWR0102" H 2250 1150 50  0001 C CNN
+F 1 "GND" V 2255 1272 50  0000 R CNN
+F 2 "" H 2250 1400 50  0001 C CNN
+F 3 "" H 2250 1400 50  0001 C CNN
+	1    2250 1400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	7500 3650 8450 3650
+NoConn ~ 1850 3800
+NoConn ~ 2000 3800
 $EndSCHEMATC
