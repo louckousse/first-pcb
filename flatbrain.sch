@@ -1364,7 +1364,7 @@ U 1 1 5EE84C60
 P 7600 4150
 F 0 "SW1" H 7600 4517 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 7600 4426 50  0000 C CNN
-F 2 "parts:rotary_x_mx" H 7450 4310 50  0001 C CNN
+F 2 "parts:rotary_full" H 7450 4310 50  0001 C CNN
 F 3 "~" H 7600 4410 50  0001 C CNN
 	1    7600 4150
 	0    -1   -1   0   
@@ -1445,10 +1445,6 @@ Connection ~ 7500 3650
 Connection ~ 7700 2600
 Wire Wire Line
 	7700 2600 7700 3850
-Text GLabel 7500 4450 3    50   Input ~ 0
-ENCA
-Text GLabel 7700 4450 3    50   Input ~ 0
-ENCB
 $Comp
 L power:GND #PWR07
 U 1 1 5F0FF764
@@ -1472,10 +1468,10 @@ Text GLabel 1450 2600 0    50   Input ~ 0
 COL9
 Text GLabel 2850 3500 2    50   Input ~ 0
 ROW1
-Text GLabel 2300 3800 3    50   Input ~ 0
-ENCA
 Text GLabel 2450 3800 3    50   Input ~ 0
-ENCB
+ENC1A
+Text GLabel 2300 3800 3    50   Input ~ 0
+ENC1B
 NoConn ~ 2150 3800
 NoConn ~ 2850 2700
 Wire Wire Line
@@ -1530,8 +1526,57 @@ F 3 "" H 2250 1400 50  0001 C CNN
 	1    2250 1400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 600D8C59
+P 8050 3750
+F 0 "D36" V 8096 3680 50  0000 R CNN
+F 1 "D_Small" V 8005 3680 50  0000 R CNN
+F 2 "Keebio-Parts:Diode-Hybrid-Back" V 8050 3750 50  0001 C CNN
+F 3 "~" V 8050 3750 50  0001 C CNN
+	1    8050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 600D8C62
+P 8150 4450
+F 0 "#PWR0103" H 8150 4200 50  0001 C CNN
+F 1 "GND" H 8155 4277 50  0000 C CNN
+F 2 "" H 8150 4450 50  0001 C CNN
+F 3 "" H 8150 4450 50  0001 C CNN
+	1    8150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 600D8C53
+P 8150 4150
+F 0 "SW2" H 8150 4517 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8150 4426 50  0000 C CNN
+F 2 "parts:rotary_full" H 8000 4310 50  0001 C CNN
+F 3 "~" H 8150 4410 50  0001 C CNN
+	1    8150 4150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8050 3650
 Wire Wire Line
-	7500 3650 8450 3650
-NoConn ~ 1850 3800
-NoConn ~ 2000 3800
+	8050 3650 8450 3650
+Wire Wire Line
+	7500 3650 8050 3650
+Wire Wire Line
+	8250 3850 8250 2600
+Connection ~ 8250 2600
+Text GLabel 1850 3800 3    50   Input ~ 0
+ENC2A
+Text GLabel 2000 3800 3    50   Input ~ 0
+ENC2B
+Text GLabel 7500 4450 3    50   Input ~ 0
+ENC1A
+Text GLabel 7700 4450 3    50   Input ~ 0
+ENC1B
+Text GLabel 8050 4450 3    50   Input ~ 0
+ENC2A
+Text GLabel 8250 4450 3    50   Input ~ 0
+ENC2B
 $EndSCHEMATC
