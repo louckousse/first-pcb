@@ -7,3 +7,6 @@
 [submodule "Kicad-Footprints"]
 	path = Kicad-Footprints
 	url = https://github.com/davidphilipbarr/Kicad-Footprints.git
+[submodule "fancy-kicad-stuff"]
+	path = fancy-kicad-stuff
+	url = git@github.com:mkbdfr/fancy-kicad-stuff.git
