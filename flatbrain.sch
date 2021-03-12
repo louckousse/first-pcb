@@ -195,9 +195,9 @@ Text GLabel 2750 1050 1    50   Input ~ 0
 COL2
 Text GLabel 2750 1400 3    50   Input ~ 0
 COL3
-Text GLabel 2400 2650 2    50   Input ~ 0
+Text GLabel 2400 3650 2    50   Input ~ 0
 COL7
-Text GLabel 2400 2950 2    50   Input ~ 0
+Text GLabel 2400 1650 2    50   Input ~ 0
 ROW2
 $Comp
 L power:GND #PWR01
@@ -1075,9 +1075,9 @@ Wire Wire Line
 Connection ~ 9400 2500
 Wire Wire Line
 	9400 3150 9400 2500
-Text GLabel 2400 2850 2    50   Input ~ 0
-ROW3
 Text GLabel 2400 1550 2    50   Input ~ 0
+ROW3
+Text GLabel 2400 3750 2    50   Input ~ 0
 COL6
 $Comp
 L LED:WS2812B LED1
@@ -1382,13 +1382,13 @@ Text GLabel 2400 1450 2    50   Input ~ 0
 ROW0
 Text GLabel 2400 1750 2    50   Input ~ 0
 COL4
-Text GLabel 2400 2450 2    50   Input ~ 0
+Text GLabel 2400 3850 2    50   Input ~ 0
 COL5
-Text GLabel 2400 3650 2    50   Input ~ 0
+Text GLabel 2400 3550 2    50   Input ~ 0
 COL8
-Text GLabel 2400 3750 2    50   Input ~ 0
+Text GLabel 2400 3450 2    50   Input ~ 0
 COL9
-Text GLabel 2400 1650 2    50   Input ~ 0
+Text GLabel 2400 2950 2    50   Input ~ 0
 ROW1
 Text GLabel 2400 2550 2    50   Input ~ 0
 ENC1A
